@@ -1,4 +1,6 @@
 [ProjectFiles]
-HeaderPath = ..\Middlewares\Third_Party\SerialCmd\inc;
+HeaderPath = ..\Middlewares\Third_Party\SerialCmd\inc;..\Middlewares\Third_Party\Fifo\inc;
 [Groups]
 Middlewares/SerialCmd = ..\Middlewares\Third_Party\SerialCmd\src\serial_if.c;..\Middlewares\Third_Party\SerialCmd\src\cmd_template.c;
+Middlewares/Fifo = ..\Middlewares\Third_Party\Fifo\src\fifo.c;
+Drivers/STM32F1xx_HAL_Driver = ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usart.c

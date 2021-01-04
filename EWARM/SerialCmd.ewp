@@ -348,6 +348,7 @@
           <state>$PROJ_DIR$/../Drivers/CMSIS/Device/ST/STM32F1xx/Include</state>
           <state>$PROJ_DIR$/../Drivers/CMSIS/Include</state>
           <state>$PROJ_DIR$/../Middlewares/Third_Party/SerialCmd/inc</state>
+          <state>$PROJ_DIR$/../Middlewares/Third_Party/Fifo/inc</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1051,6 +1052,9 @@
     <group>
       <name>STM32F1xx_HAL_Driver</name>
       <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c</name>
+      </file>
+      <file>
         <name>$PROJ_DIR$/../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c</name>
       </file>
       <file>
@@ -1109,6 +1113,12 @@
       </file>
       <file>
         <name>$PROJ_DIR$/../Middlewares/Third_Party/SerialCmd/src/cmd_template.c</name>
+      </file>
+    </group>
+    <group>
+      <name>Fifo</name>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/Fifo/src/fifo.c</name>
       </file>
     </group>
   </group>
