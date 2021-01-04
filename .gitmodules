@@ -1,3 +1,6 @@
 [submodule "Middlewares/Third_Party/SerialCmd"]
 	path = Middlewares/Third_Party/SerialCmd
 	url = https://github.com/rzzuozuo/SerialCmd.git
+[submodule "Middlewares/Third_Party/Fifo"]
+	path = Middlewares/Third_Party/Fifo
+	url = https://github.com/rzzuozuo/Fifo_C.git
