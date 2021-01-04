@@ -1,0 +1,4 @@
+[ProjectFiles]
+HeaderPath = ..\Middlewares\Third_Party\SerialCmd\inc;
+[Groups]
+Middlewares/SerialCmd = ..\Middlewares\Third_Party\SerialCmd\src\serial_if.c;..\Middlewares\Third_Party\SerialCmd\src\cmd_template.c;
