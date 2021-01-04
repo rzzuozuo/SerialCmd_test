@@ -1,0 +1,3 @@
+[submodule "Middlewares/Third_Party/SerialCmd"]
+	path = Middlewares/Third_Party/SerialCmd
+	url = https://github.com/rzzuozuo/SerialCmd.git
