@@ -54,7 +54,9 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void SerialInit(void);
+void MX_USART2_UART_Init(void);
+void SerialProcess(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

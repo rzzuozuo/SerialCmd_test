@@ -20,7 +20,8 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
+#include "Serial.hpp"
+extern "C"{
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -52,13 +53,14 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+extern void Serial(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
+}
 
 /**
   * @brief  The application entry point.
@@ -89,7 +91,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+//    MX_USART2_UART_Init();
+  SerialInit();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,6 +102,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    SerialProcess();
   }
   /* USER CODE END 3 */
 }
@@ -167,7 +171,6 @@ void MX_USART2_UART_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN USART2_Init 2 */
-
   /* USER CODE END USART2_Init 2 */
 
 }
