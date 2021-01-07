@@ -351,7 +351,7 @@
                     <state>$PROJ_DIR$/../Drivers/CMSIS/Device/ST/STM32F1xx/Include</state>
                     <state>$PROJ_DIR$/../Drivers/CMSIS/Include</state>
                     <state>$PROJ_DIR$/../Middlewares/Third_Party/SerialCmd/inc</state>
-                    <state>$PROJ_DIR$/../Middlewares/Third_Party/Fifo/inc</state>
+                    <state>$PROJ_DIR$/../Middlewares/Third_Party/Fifo</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1109,9 +1109,6 @@
     </group>
     <group>
         <name>Middlewares</name>
-        <group>
-            <name>Fifo</name>
-        </group>
         <group>
             <name>SerialCmd</name>
             <file>

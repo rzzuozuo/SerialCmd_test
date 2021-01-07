@@ -1269,9 +1269,6 @@
     <group>
         <name>Middlewares</name>
         <group>
-            <name>Fifo</name>
-        </group>
-        <group>
             <name>SerialCmd</name>
             <file>
                 <name>$PROJ_DIR$\..\Middlewares\Third_Party\SerialCmd\src\cmd.cpp</name>
